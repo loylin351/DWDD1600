@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Loy Lin">
+    <meta name="descripyion" content="Learn about the Declaration of Independence of the United Stated">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Basketball</title>
+</head>
+
+<body>
+    <!-- Start the page head -->
+    <headder>
+        <span>Basketball</span>
+    </headder>
+
+    <!-- start the page navigation -->
+     <nav>
+        <ul>
+            <li class="active"><a href="index.html">About Basketball</a></li>
+            <li><a href="Players.html">Players</a></li>
+            <li><a href="photo.html">photo</a></li>
+            <li><a href="form.html">Contact</a></li>
+        </ul>
+
+     </nav>
+     <!-- start the main content -->
+      <main>
+        <h1>Sign up for training</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        
+        <fieldset>
+        <legend>Your Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        </fieldset>
+         
+        <fieldset>
+        <legend>Time slots can be selected</legend>
+            <label><input type="radio" name="method" value="drone">8am-10am-</label>
+            <label><input type="radio" name="method" value="cycle">4pm-6pm</label>
+            <label><input type="radio" name="method" value="robot">8pm-12pm</label>
+        </fieldset>
+
+         <label>Comments
+            <textarea name="comments"></textarea>
+         </label>
+
+
+
+        <input type="submit" value="Send Delivery Request">
+        </form>    
+      </main>
+
+      <!-- start the page footer -->
+       <footer>
+           <p>&copy; 202x &bull; Loy Lin &bull; Web Essentials</p>
+       </footer>
+</body>
+
+</html>
